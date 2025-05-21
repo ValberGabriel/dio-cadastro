@@ -1,70 +1,102 @@
-Tela de Cadastro - DIO
-Este é um projeto React que implementa uma tela de cadastro simples e estilizada , inspirada na plataforma da DIO (Digital Innovation One) . Foi desenvolvido com boas práticas, hooks, formulários controlados e estilização usando styled-components.
+📋 Tela de Cadastro - DIO
+
+Este projeto é uma aplicação React que implementa uma tela de cadastro simples, moderna e responsiva, inspirada na plataforma da **DIO (Digital Innovation One)**. Foi desenvolvido com foco em boas práticas, utilizando **hooks**, **formulários controlados** e **styled-components** para a estilização.
 
 Objetivo
-Recriar uma tela de cadastro com interface moderna e funcionalidade básica, aplicando os conceitos aprendidos em:
 
-Criação de projetos com React CLI
-Estilização com styled-components
-Manipulação de estado com Hooks (useState)
-Formulários controlados
-Estruturação de componentes reutilizáveis
+Recriar uma tela de cadastro com uma interface limpa e funcional, aplicando os principais conceitos estudados no módulo:
 
-🛠️ Tecnologias Utilizadas
-React – Biblioteca principal
-Vite (ou Create React App) – CLI para criação rápida do projeto
-styled-components – Para estilização customizada e modular
-React Hooks – Controle de estado dos campos do formulário
-ES6+ – Sintaxe moderna do JavaScript
+* Criação de projetos com React (Vite ou CRA)
+* Estilização com styled-components
+* Manipulação de estado com React Hooks (`useState`)
+* Criação de formulários controlados
+* Componentização e reutilização de código
 
-📁 Estrutura do Projeto
+Tecnologias Utilizadas
+
+* **React** – Biblioteca principal para construção da interface
+* **Vite** (ou Create React App) – Ferramenta de build e desenvolvimento
+* **styled-components** – Estilização em CSS-in-JS
+* **React Hooks** – Manipulação de estado nos componentes
+* **JavaScript ES6+** – Sintaxe moderna
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
 src/
 ├── components/
 │   └── FormCadastro.jsx       # Componente reutilizável do formulário
 ├── pages/
-│   └── Home.jsx               # Página inicial com o formulário centralizado
+│   └── Home.jsx               # Página principal com o formulário
 ├── styles/
 │   └── globalStyles.js        # Estilos globais da aplicação
 ├── App.jsx                    # Componente raiz
 └── main.jsx                   # Ponto de entrada da aplicação
+```
 
-Funcionalidades
-Campos de nome, e-mail, senha e confirmação de senha
-Validação simples de senhas (verifica se as duas senhas coincidem)
-Interface responsiva e estilizada
-Código organizado por componentes e páginas
+---
 
-Como Rodar o Projeto
-Clone o repositório:
-bash
+## ✅ Funcionalidades
+
+* Campos para **nome**, **e-mail**, **senha** e **confirmação de senha**
+* Validação simples para verificar se as senhas coincidem
+* Layout moderno e responsivo
+* Estrutura de código limpa e organizada por componentes
+
+---
+
+## Como Rodar o Projeto
+
+1. **Clone o repositório:**
+
+```bash
 git clone https://github.com/seu-usuario/dio-cadastro.git 
 cd dio-cadastro
-Instale as dependências:
-bash
+```
 
+2. **Instale as dependências:**
 
-
+```bash
 npm install
-Inicie o servidor de desenvolvimento:
+```
 
-bash
+3. **Inicie o servidor de desenvolvimento:**
+
+```bash
 npm run dev
-Acesse a aplicação no navegador:
+```
 
-http://localhost:5173  Ou outra porta conforme sua configuração
-Se você usou Create React App , use: 
+4. **Acesse no navegador:**
 
-bash
+```
+http://localhost:5173
+```
+
+> Caso tenha utilizado Create React App:
+
+```bash
 npm start
+```
 
-Melhorias Futuras (Sugestões)
-Adicionar validação de e-mail e CPF
-Integração com Firebase ou API real
-Roteamento com react-router-dom
-Armazenamento com localStorage ou contexto global
-Testes unitários com Jest + React Testing Library
+---
 
-Créditos
-Desenvolvido durante o módulo de React CLI, hooks e formulários da DIO .
-Por: Valber Gabriel
-Data: Maio/2025
+## Melhorias Futuras (Sugestões)
+
+* Validação de e-mail e CPF
+* Integração com Firebase ou API real
+* Roteamento com `react-router-dom`
+* Armazenamento com `localStorage` ou `Context API`
+* Testes com Jest e React Testing Library
+
+---
+
+## Créditos
+
+Desenvolvido por **Valber Gabriel**, como parte dos estudos de React na plataforma **DIO**.
+📅 **Maio/2025**
+
+---
+
+Se quiser, posso gerar também uma versão em inglês ou um modelo com badges e preview da interface. Deseja?
